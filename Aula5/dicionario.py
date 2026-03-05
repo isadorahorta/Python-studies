@@ -51,3 +51,20 @@ livro = {
 lista_elementos_livro = livro.items() #retorna uma lista de tuplas contendo as chaves e valores do dicionário
 for elemento in lista_elementos_livro:
     print(elemento)
+
+
+lista_livros_dict = {
+    "livro1": {
+        "titulo":'O Senhor dos Anéis',
+        "autor":'J.R.R. Tolkien',
+        "ano_publicacao":1954,
+    },
+
+    "livro2": {
+        "titulo":'Harry Potter e a Pedra Filosofal',
+        "autor":'J.K. Rowling',
+        "ano_publicacao":1997,
+    }
+}
+
+print(lista_livros_dict["livro1"]["titulo"])
