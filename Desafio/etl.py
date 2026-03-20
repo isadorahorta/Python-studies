@@ -1,6 +1,6 @@
 import csv
 
-path_arquivo = r"C:\Users\rates\OneDrive\Documentos\Estudos_Python\Projeto02-Python\vendas.csv"
+path_arquivo = r"C:\Users\rates\OneDrive\Documentos\Estudos_Python\Desafio\vendas.csv"
 
 # Função para ler arquivo csv e retornar uma lista de dicionários com esses dados
 def ler_csv(path_arquivo: str) -> list[dict]:
